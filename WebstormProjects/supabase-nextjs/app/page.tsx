@@ -98,14 +98,14 @@ export default function Home() {
 
           {images.length > 0 && (
               <div className="mt-2">
-                <h2 className="text-gray-600 font-semibold mb-2"> History</h2>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <h2 className="text-gray-600 font-semibold mb-2">History</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                   {images.map((url, i) => (
                       <a key={i} href={url} target="_blank" rel="noopener noreferrer">
                         <img
                             src={url}
                             alt={`Generated ${i + 1}`}
-                            className="rounded shadow hover:opacity-90 transition"
+                            className="rounded shadow hover:opacity-90 transition w-full object-cover aspect-square"
                         />
                       </a>
                   ))}
