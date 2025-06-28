@@ -8,7 +8,7 @@ export async function POST(req: Request) {
         {
             method: "POST",
             headers: {
-                Authorization: `Bearer ${process.env.REPLICATE_API_TOKEN}`,
+                Authorization: `Bearer ${process.env.NEXT_REPLICATE_API_TOKEN}`,
                 "Content-Type": "application/json",
                 Prefer: "wait",
             },
