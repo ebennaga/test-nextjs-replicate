@@ -1,17 +1,22 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-
-First, run the development server:
+Here are the installation steps:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+
+Make sure you have Node.js version 22 installed.
+
+Clone the repository.
+
+Run npm install.
+
+Copy your API token into the .env file using the variable NEXT_REPLICATE_API_TOKEN.
+
+Run npm run dev.
+
+Access the app at http://localhost:3000.
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
