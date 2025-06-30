@@ -12,7 +12,7 @@ Clone the repository.
 
 Run npm install.
 
-Copy your API token into the .env file using the variable NEXT_REPLICATE_API_TOKEN.
+Copy your API token into the .env file using the variable NEXT_REPLICATE_API_TOKEN=APIKEY.
 
 Run npm run dev.
 
